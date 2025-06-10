@@ -161,19 +161,16 @@ section .title::after {
     filter: brightness(90%);
 }
 
-/* home section styling */
 .home {
-  display: flex;
-  background: url("/home/bg1.png") no-repeat center center;
-  height: 600px;            /* Fixed height */
-  min-height: 500px;
-  color: #fff;
-  background-size: contain; /* Fit entire image inside */
-  background-repeat: no-repeat;
-  background-position: center;
-  font-family: 'Ubuntu', sans-serif;
-  align-items: center;
-  overflow: hidden;         /* Prevent scrollbars */
+    display: flex;
+    background: url("/home/bg1.png") no-repeat center center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
 }
 
 .home .max-width {
