@@ -230,7 +230,7 @@ export default function Home() {
             </div>
             <div className={styles.column + " " + styles.right}>
               <div className={styles.text}>Message Us</div>
-              <form action="contact.php" method="post">
+              <form>
                 <div className={styles.fields}>
                   <div className={styles.field + " " + styles.name}>
                     <input
