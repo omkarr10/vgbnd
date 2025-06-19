@@ -38,7 +38,7 @@ const Login = () => {
             const username = e.target[0].value;
             const password = e.target[1].value;
 
-            const res = await fetch("http://localhost:5000/api/auth/login", {
+            const res = await fetch("https://vgbnd.onrender.com/api/auth/login", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({ username, password }),
@@ -96,7 +96,7 @@ const Login = () => {
             const email = e.target[1].value;
             const password = e.target[2].value;
 
-            const res = await fetch("http://localhost:5000/api/auth/register", {
+            const res = await fetch("https://vgbnd.onrender.com/api/auth/register", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({ username, email, password }),
