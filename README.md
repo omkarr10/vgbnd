@@ -1,9 +1,9 @@
 
 # 🌍 Vagabond Inc. – Rediscover Paradise
 
-**[Live Site →](https://vgbnd.vercel.app)**
+**[Site →](https://vgbnd.vercel.app)**
 
-VAGABOND is a travel and booking platform where users can explore scenic camping destinations, register, log in, book experiences, and get a beautiful, responsive interface.
+Vagabond Inc. is a travel and booking platform where users can explore scenic camping destinations, register, log in, book experiences, and get a beautiful, responsive interface.
 
 ---
 
