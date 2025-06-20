@@ -66,7 +66,7 @@ npm install
 **Backend:**
 
 ```bash
-cd ../backend
+cd backend
 npm install
 ```
 
@@ -84,7 +84,7 @@ JWT_SECRET=your_secret_key
 
 ```bash
 cd backend
-npm node server.js
+node server.js
 ```
 
 **Frontend:**
