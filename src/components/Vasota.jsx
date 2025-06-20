@@ -201,16 +201,6 @@ const Vasota = () => {
           <p>&copy; <a className="border-bottom text-white" href="#">Vagabond Inc.</a> All Rights Reserved.</p>
         </div>
       </footer>
-
-      {/* Image Modal */}
-      {modalImg && (
-        <div className="modal show d-block" onClick={closeModal} style={{ backgroundColor: "rgba(0,0,0,0.8)" }}>
-          <div className="modal-dialog modal-dialog-centered" onClick={(e) => e.stopPropagation()}>
-            <img src={modalImg} alt="Modal" className="img-fluid rounded" />
-          </div>
-        </div>
-      )}
-    </div>
   );
 };
 
