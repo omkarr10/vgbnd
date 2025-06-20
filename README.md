@@ -14,7 +14,6 @@ VAGABOND is a travel and booking platform where users can explore scenic camping
 - 📅 Booking form with age/date/ID validation
 - 📬 Contact form storing data in MongoDB
 - 📱 Mobile-first responsive layout
-- 💬 Real-time feedback messages
 - 🎨 Clean modern UI with animations and icons
 
 ---
@@ -60,7 +59,7 @@ cd vgbnd
 **Frontend:**
 
 ```bash
-cd client
+cd vgbnd
 npm install
 ```
 
@@ -91,7 +90,7 @@ npm start
 **Frontend:**
 
 ```bash
-cd ../client
+cd ../vgbnd
 npm run dev
 ```
 
@@ -115,7 +114,6 @@ Visit [http://localhost:5173](http://localhost:5173)
 - [ ] Form validations
 - [ ] MongoDB data saving
 - [ ] Location pages with animations
-- [ ] Budget estimator + itinerary generator
 - [ ] PDF download for receipts
 - [ ] Admin dashboard for bookings/users
 
