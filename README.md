@@ -106,15 +106,7 @@ Visit [http://localhost:5173](http://localhost:5173)
 | Backend   | [Render](https://render.com/) |
 | Database  | [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) |
 
----
-
-## 📌 To-Do / Roadmap
-
-- [✅] Basic Login/Register
-- [✅] Form validations
-- [✅] MongoDB data saving
-- [✅] Location pages with animations
-- [✅] Admin dashboard for bookings/users
+---
 
 **Made with ❤️ Vagabond Inc.**
 
