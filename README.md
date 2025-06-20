@@ -70,7 +70,7 @@ cd ../backend
 npm install
 ```
 
-### 3. Create `.env` in `/server`
+### 3. Create `.env` in `/backend`
 
 ```env
 PORT=5000
@@ -84,13 +84,13 @@ JWT_SECRET=your_secret_key
 
 ```bash
 cd backend
-npm start
+npm node server.js
 ```
 
 **Frontend:**
 
 ```bash
-cd ../vgbnd
+cd vgbnd
 npm run dev
 ```
 
@@ -110,14 +110,11 @@ Visit [http://localhost:5173](http://localhost:5173)
 
 ## 📌 To-Do / Roadmap
 
-- [ ] Basic Login/Register
-- [ ] Form validations
-- [ ] MongoDB data saving
-- [ ] Location pages with animations
-- [ ] PDF download for receipts
-- [ ] Admin dashboard for bookings/users
+- [✅] Basic Login/Register
+- [✅] Form validations
+- [✅] MongoDB data saving
+- [✅] Location pages with animations
+- [✅] Admin dashboard for bookings/users
 
-
-**Vagabond Inc.**  
-Made with 💙 by Vagabond Inc.
+**Made with ❤️ Vagabond Inc.**
 
