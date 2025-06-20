@@ -1,0 +1,126 @@
+
+# 🌍 VGBND – Rediscover Paradise
+
+**[Live Site →](https://vgbnd.vercel.app)**
+
+VAGABOND is a travel and booking platform where users can explore scenic camping destinations, register, log in, book experiences, and get a beautiful, responsive interface.
+
+---
+
+## 🚀 Features
+
+- 🧳 Explore scenic destinations (like Alibaug, Lonavala, Pawna, etc.)
+- 🔐 User login & registration (with validation + backend API)
+- 📅 Booking form with age/date/ID validation
+- 📬 Contact form storing data in MongoDB
+- 📱 Mobile-first responsive layout
+- 💬 Real-time feedback messages
+- 🎨 Clean modern UI with animations and icons
+
+---
+
+## ⚙️ Tech Stack
+
+| Frontend     | Backend         | Database     | Others                        |
+|--------------|------------------|--------------|-------------------------------|
+| React (Vite) | Node.js + Express| MongoDB Atlas| React Router, CSS Modules     |
+| React Icons  | JWT Auth         | MongoDB Compass | Animate.css, CountUp.js     |
+
+---
+
+## 🧑‍💻 Project Structure
+
+```
+vgbnd/
+├── backend/                 # Express/Node.js backend (API server, models, routes)
+├── public/                  # Static assets for frontend
+├── src/                     # React app source code
+├── README.md                # Project documentation
+├── .gitignore               # Git ignore rules
+├── eslint.config.js         # ESLint configuration
+├── index.html               # Main HTML template for frontend
+├── package.json             # Project metadata and scripts
+├── package-lock.json        # Lockfile for npm dependencies
+├── vercel.json              # Vercel deployment settings
+└── vite.config.js           # Vite.js build configuration
+
+---
+
+## 🧪 Getting Started (Local Development)
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/yourusername/vgbnd.git
+cd vgbnd
+```
+
+### 2. Install Dependencies
+
+**Frontend:**
+
+```bash
+cd client
+npm install
+```
+
+**Backend:**
+
+```bash
+cd ../server
+npm install
+```
+
+### 3. Create `.env` in `/server`
+
+```env
+PORT=5000
+MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/vgbnd
+JWT_SECRET=your_secret_key
+```
+
+### 4. Run the Project
+
+**Backend:**
+
+```bash
+cd server
+npm start
+```
+
+**Frontend:**
+
+```bash
+cd ../client
+npm run dev
+```
+
+Visit [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🌐 Deployment
+
+| Service   | URL                              |
+|-----------|----------------------------------|
+| Frontend  | [Vercel](https://vgbnd.vercel.app) |
+| Backend   | [Render](https://render.com/) / Railway |
+| Database  | [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) |
+
+---
+
+## 📌 To-Do / Roadmap
+
+- [ ] Basic Login/Register
+- [ ] Form validations
+- [ ] MongoDB data saving
+- [ ] Location pages with animations
+- [ ] Budget estimator + itinerary generator
+- [ ] PDF download for receipts
+- [ ] Admin dashboard for bookings/users
+- [ ] Add Razorpay or Stripe integration
+
+
+**Vagabond Inc.**  
+Made with 💙 by Vagabond Inc.
+
