@@ -131,9 +131,6 @@ const Devkund = () => {
         }}>
           <div className="position-relative">
             <img src={modalImg} alt="modal" className="img-fluid rounded" style={{ maxHeight: "90vh" }} />
-            <button onClick={() => setModalImg(null)} className="btn btn-danger position-absolute top-0 end-0 m-2">
-              <FaTimes />
-            </button>
           </div>
         </div>
       )}
