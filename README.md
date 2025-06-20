@@ -118,7 +118,6 @@ Visit [http://localhost:5173](http://localhost:5173)
 - [ ] Budget estimator + itinerary generator
 - [ ] PDF download for receipts
 - [ ] Admin dashboard for bookings/users
-- [ ] Add Razorpay or Stripe integration
 
 
 **Vagabond Inc.**  
