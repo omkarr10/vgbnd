@@ -201,6 +201,7 @@ const Vasota = () => {
           <p>&copy; <a className="border-bottom text-white" href="#">Vagabond Inc.</a> All Rights Reserved.</p>
         </div>
       </footer>
+    </div>
   );
 };
 
