@@ -1,5 +1,5 @@
 
-# 🌍 VAGABOND INC. – Rediscover Paradise
+# 🌍 Vagabond Inc. – Rediscover Paradise
 
 **[Live Site →](https://vgbnd.vercel.app)**
 
@@ -42,7 +42,7 @@ vgbnd/
 ├── package-lock.json        # Lockfile for npm dependencies
 ├── vercel.json              # Vercel deployment settings
 └── vite.config.js           # Vite.js build configuration
-
+```
 ---
 
 ## 🧪 Getting Started (Local Development)
