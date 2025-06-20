@@ -1,5 +1,5 @@
 
-# 🌍 VGBND – Rediscover Paradise
+# 🌍 VAGABOND INC. – Rediscover Paradise
 
 **[Live Site →](https://vgbnd.vercel.app)**
 
