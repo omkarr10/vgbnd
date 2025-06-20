@@ -118,20 +118,6 @@ const Pawna = () => {
         </div>
       </motion.section>
 
-        {/* Modal Image */}
-      {modalImg && (
-        <div className="modal d-flex align-items-center justify-content-center" onClick={() => setModalImg(null)} style={{
-          position: "fixed", top: 0, left: 0, width: "100%", height: "100%",
-          background: "rgba(0,0,0,0.8)", zIndex: 9999
-        }}>
-          <div className="position-relative">
-            <img src={modalImg} alt="modal" className="img-fluid rounded" style={{ maxHeight: "90vh" }} />
-            <button onClick={() => setModalImg(null)} className="btn btn-danger position-absolute top-0 end-0 m-2">
-              <FaTimes />
-            </button>
-          </div>
-        </div>
-      )}
 
 
       {/* Booking Section */}
