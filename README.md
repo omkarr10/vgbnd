@@ -104,7 +104,7 @@ Visit [http://localhost:5173](http://localhost:5173)
 | Service   | URL                              |
 |-----------|----------------------------------|
 | Frontend  | [Vercel](https://vgbnd.vercel.app) |
-| Backend   | [Render](https://render.com/) / Railway |
+| Backend   | [Render](https://render.com/) |
 | Database  | [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) |
 
 ---
